@@ -26,3 +26,6 @@ dist-ssr
 # Rescript
 lib
 *.bs.js
+
+# Vitest
+coverage

@@ -4,6 +4,11 @@
     {
       "dir": "src",
       "subdirs": true
+    },
+    {
+      "dir": "tests",
+      "type": "dev",
+      "subdirs": true
     }
   ],
   "package-specs": [
@@ -13,6 +18,9 @@
     }
   ],
   "suffix": ".bs.js",
-  "bs-dependencies": ["bs-fetch", "@rescript/react"],
+  "bs-dependencies": ["bs-fetch", "@rescript/react", "rescript-webapi"],
+  "bs-dev-dependencies": [
+    "rescript-vitest"
+  ],
   "reason": { "react-jsx": 3 }
 }
